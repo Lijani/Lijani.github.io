@@ -192,7 +192,7 @@ body {
     }
 
         .side p {
-            font-size: 2vh;
+            font-size: 3vh;
             width: 100%;
         }
 }
@@ -385,11 +385,11 @@ body {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 1000px) {
     div.team-member p {
-        font-size: 25px;
+        font-size: 2vh;
     }
 
     div.team-member h1 {
-        font-size: 30px;
+        font-size: 2.5vh;
         font-family: 'Gelasio';
         font-weight: lighter;
         font-variant-caps: small-caps;
@@ -398,28 +398,20 @@ body {
 
     div.team-member {
         flex:50%;
-        margin: 0 auto;
-        padding: 0.5% 0.5%;
         max-width: 45%;
-        height: auto;
-        display: inline-block;
     }
 
     div.team-member-together {
-        margin: 0 auto;
-        padding: 0.5% 0.5%;
         max-width: 100%;
-        height: auto;
-        display: inline-block;
     }
 
     .team-member-together p {
         font-family: 'Yrsa';
-        font-size: 15px;
+        font-size: 2vh;
     }
 
     .team-member-together h1 {
-        font-size: 20px;
+        font-size: 2.5vh;
         font-family: 'Gelasio';
         font-weight: lighter;
         font-variant-caps: small-caps;
@@ -772,35 +764,33 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 1000px) {
     .info-footer-contact p{
-        font-size: 15px;
+        font-size: 30px;
         line-height: 15px;
     }
 
         .info-footer-contact h1 {
-            font-size: 20px;
+            font-size: 40px;
         }
 
     .info-footer-contact hr {
         width: 70%;
         border-style: solid;
         color: rgba(0, 0, 0, 0.5);
-        margin-bottom: 1em;
     }
 
     .info-footer-address p {
-        font-size: 15px;
+        font-size: 30px;
         line-height: 15px;
     }
 
     .info-footer-address h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .info-footer-address hr {
         width: 70%;
         border-style: solid;
         color: rgba(0, 0, 0, 0.5);
-        margin-bottom: 1em;
     }
 }
 
