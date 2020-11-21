@@ -164,7 +164,7 @@ body {
 }
 
 .side {
-    max-width: 40%;
+    max-width: 100%;
     padding: 1vh 1vh;
     display:inline-block;
     
@@ -172,7 +172,7 @@ body {
 
 .side img {
     margin-top: 1vh;
-    width: 100%;
+    width: 40%;
     border-radius: 3px;
     border-style: solid;
     border-color: #B69257;
@@ -180,7 +180,7 @@ body {
 
     .side p {
         font-size: 3rem;
-        width: 50%;
+        width: 40%;
         font-family: 'Yrsa';
         text-align: left;
     }
@@ -653,14 +653,14 @@ input[type=submit]:hover {
     text-align: center;
     color: rgb(241, 249, 249);
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-family: 'Tenali Ramakrishna';
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 .social-tag {
     margin: 0;
-    padding: 0.3rem 5px;
+    padding: 0.3rem;
     vertical-align: middle;
     color: rgb(241, 249, 249);
     font-size: 2rem;
@@ -669,14 +669,14 @@ input[type=submit]:hover {
 @media screen and (max-width: 1000px) {
     .social-text {
         margin: 0;
-        padding: 0 10px;
+        padding:10px;
         vertical-align: middle;
         text-align: center;
         color: rgb(241, 249, 249);
         display: inline-block;
-        font-size: 1.2rem;
+        font-size: 2rem;
         font-family: 'Tenali Ramakrishna';
-        letter-spacing: 1.5px;
+        letter-spacing: 2px;
     }
 
     .social-tag {
@@ -684,7 +684,7 @@ input[type=submit]:hover {
         padding: 0.5rem 1rem;
         vertical-align: middle;
         color: rgb(241, 249, 249);
-        font-size: 2rem;
+        font-size: 4rem;
     }
 }
 
@@ -769,6 +769,11 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 1000px) {
+
+    .info-footer-contact {
+        width: 45%;
+    }
+
     .info-footer-contact p{
         font-size: 2rem;
         line-height: 0.8rem;
@@ -782,6 +787,10 @@ input[type=submit]:hover {
         width: 70%;
         border-style: solid;
         color: rgba(0, 0, 0, 0.5);
+    }
+
+    .info-footer-address{
+        width: 45%;
     }
 
     .info-footer-address p {
