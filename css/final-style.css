@@ -192,7 +192,7 @@ body {
     }
 
         .side p {
-            font-size: 3rem;
+            font-size: 2rem;
             width: 100%;
         }
 }
@@ -375,6 +375,7 @@ body {
     }
 
     .team-member-together h1 {
+        font-size: 1.5rem;
         font-family: 'Gelasio';
         font-weight: lighter;
         font-variant-caps: small-caps;
@@ -386,10 +387,15 @@ body {
 @media screen and (max-width: 1000px) {
     div.team-member p {
         font-size: 0.8rem;
+        font-family: 'Yrsa';
     }
 
     div.team-member h1 {
         font-size: 1.5rem;
+        font-family: 'Gelasio';
+        font-weight: lighter;
+        font-variant-caps: small-caps;
+        letter-spacing: 0.5px;
     }
 
     div.team-member {
@@ -407,6 +413,10 @@ body {
 
     .team-member-together h1 {
         font-size: 1.5rem;
+        font-family: 'Gelasio';
+        font-weight: lighter;
+        font-variant-caps: small-caps;
+        letter-spacing: 0.5px;
     }
 }
 
@@ -659,7 +669,7 @@ input[type=submit]:hover {
         text-align: center;
         color: rgb(241, 249, 249);
         display: inline-block;
-        font-size: 2rem;
+        font-size: 1.2rem;
         font-family: 'Tenali Ramakrishna';
         letter-spacing: 1.5px;
     }
@@ -669,7 +679,7 @@ input[type=submit]:hover {
         padding: 0.3rem 5px;
         vertical-align: middle;
         color: rgb(241, 249, 249);
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -770,12 +780,12 @@ input[type=submit]:hover {
     }
 
     .info-footer-address p {
-        font-size: 30px;
-        line-height: 15px;
+        font-size: 1.5rem;
+        line-height: 0.8rem;
     }
 
     .info-footer-address h1 {
-        font-size: 40px;
+        font-size: 2rem;
     }
 
     .info-footer-address hr {
@@ -796,4 +806,10 @@ input[type=submit]:hover {
     text-align: center;
     overflow: auto;
     font-family: 'Yrsa';
+}
+
+@media screen and (max-width: 1000px) {
+    .bottom-footer {
+        font-size: 1.5rem;
+    }
 }
