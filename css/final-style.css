@@ -134,10 +134,12 @@ body {
 .link-image-text:hover {
   background-color: tan;
 }
+
+
 /* -------------------------------- Services ---------------------------------------*/
 
 .aboutus-img {
-  width: 90%;
+  width: 50%;
   border-width: 5px;
   border-style: solid;
   border-color: #B69257;
@@ -180,8 +182,8 @@ body {
 .side p {
     font-family: 'Yrsa';
     text-align: left;
-    font-size: 3vh;
-    width:100%;
+    font-size: 2rem;
+    width: 50%;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -386,12 +388,12 @@ body {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 1000px) {
     div.team-member p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-family: 'Yrsa';
     }
 
     div.team-member h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: 'Gelasio';
         font-weight: lighter;
         font-variant-caps: small-caps;
@@ -412,11 +414,11 @@ body {
 
     .team-member-together p {
         font-family: 'Yrsa';
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .team-member-together h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: 'Gelasio';
         font-weight: lighter;
         font-variant-caps: small-caps;
@@ -541,7 +543,7 @@ input[type=submit]:hover {
         width: 80%;
         padding: 0.5rem;
         letter-spacing: 1px;
-        font-size: 18px;
+        font-size: 1.2rem;
     }
 
     input[type=email] {
@@ -549,13 +551,13 @@ input[type=submit]:hover {
         width: 80%;
         padding: 0.5rem;
         letter-spacing: 1px;
-        font-size: 18px;
+        font-size: 1.2rem;
     }
 
     input[type=submit] {
         padding: 8px 12px;
         letter-spacing: 1px;
-        font-size: 18px;
+        font-size: 1.2rem;
     }
 }
 
@@ -680,10 +682,10 @@ input[type=submit]:hover {
 
     .social-tag {
         margin: 0;
-        padding: 0.3rem 5px;
+        padding: 0.5rem 1rem;
         vertical-align: middle;
         color: rgb(241, 249, 249);
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -769,12 +771,12 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 1000px) {
     .info-footer-contact p{
-        font-size: 1.5rem;
+        font-size: 2rem;
         line-height: 0.8rem;
     }
 
         .info-footer-contact h1 {
-            font-size: 2rem;
+            font-size: 3rem;
         }
 
     .info-footer-contact hr {
@@ -784,12 +786,12 @@ input[type=submit]:hover {
     }
 
     .info-footer-address p {
-        font-size: 1.5rem;
+        font-size: 2rem;
         line-height: 0.8rem;
     }
 
     .info-footer-address h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .info-footer-address hr {
