@@ -192,7 +192,7 @@ body {
     }
 
         .side p {
-            font-size: 3vh;
+            font-size: 3rem;
             width: 100%;
         }
 }
@@ -385,20 +385,15 @@ body {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 1000px) {
     div.team-member p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     div.team-member h1 {
         font-size: 1.5rem;
-        font-family: 'Gelasio';
-        font-weight: lighter;
-        font-variant-caps: small-caps;
-        letter-spacing: 0.5px;
     }
 
     div.team-member {
-        flex:100%;
-        max-width: 45%;
+        max-width: 50%;
     }
 
     div.team-member-together {
@@ -407,7 +402,7 @@ body {
 
     .team-member-together p {
         font-family: 'Yrsa';
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .team-member-together h1 {
