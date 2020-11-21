@@ -778,6 +778,13 @@ input[type=submit]:hover {
         .info-footer h1 {
             font-size: 20px;
         }
+    .info-footer hr {
+        width: 70%;
+        border-style: solid;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }
 
 /* ------------------------------------ Footer containing copyright ------------------------------------------- */
