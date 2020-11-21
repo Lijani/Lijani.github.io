@@ -192,7 +192,7 @@ body {
     }
 
         .side p {
-            font-size: 15px;
+            font-size: 2vh;
             width: 100%;
         }
 }
@@ -385,11 +385,11 @@ body {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 1000px) {
     div.team-member p {
-        font-size: 15px;
+        font-size: 25px;
     }
 
     div.team-member h1 {
-        font-size: 20px;
+        font-size: 30px;
         font-family: 'Gelasio';
         font-weight: lighter;
         font-variant-caps: small-caps;
@@ -397,9 +397,10 @@ body {
     }
 
     div.team-member {
+        flex:50%;
         margin: 0 auto;
         padding: 0.5% 0.5%;
-        max-width: 50%;
+        max-width: 45%;
         height: auto;
         display: inline-block;
     }
