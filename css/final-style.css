@@ -197,7 +197,7 @@ body {
         .side p {
             display: flex;
             padding: 5px;
-            font-size: 2vh;
+            font-size: 2.2vh;
             width: 80%;
             font-family: 'Yrsa';
             text-align: left;
@@ -211,6 +211,14 @@ body {
             border-style: solid;
             border-color: #B69257;
         }
+
+    .below-p {
+        display: inline-block;
+        width: 80%;
+        padding: 2%;
+        font-size: 2.5vh;
+        font-family: 'Yrsa';
+    }
 }
 
 /* -------------------------------- Navigation Bar ------------------------------------------- */
@@ -324,6 +332,13 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+
+
+    .gallery_quote {
+        padding-left: 2%;
+        font-size: 3vh;
+        font-family: 'Dancing Script', cursive;
+    }
 }
 
 .gallery_quote {
@@ -540,7 +555,7 @@ input[type=submit]:hover {
 .events-par {
   text-align: center;
   font-family: 'Yrsa';
-  font-size: 2.5vh;
+  font-size: 2.2vh;
 }
 
 
