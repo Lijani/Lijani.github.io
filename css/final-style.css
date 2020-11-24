@@ -650,20 +650,20 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 1000px) {
     .social-text {
-        margin: 0;
+        margin: 0 auto;
         padding:0.5rem;
         vertical-align: middle;
         text-align: center;
         color: rgb(241, 249, 249);
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: 'Tenali Ramakrishna';
-        letter-spacing: 2px;
+        letter-spacing: 3px;
     }
 
     .social-tag {
+        margin: 0 auto;
         vertical-align: middle;
-        text-align: center;
         padding: 0.5rem;
         color: rgb(241, 249, 249);
         font-size: 3rem;
@@ -806,6 +806,6 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 1000px) {
     .bottom-footer {
-        font-size: 1.1rem;
+        font-size: 2rem;
     }
 }
