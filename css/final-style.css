@@ -193,6 +193,24 @@ body {
         flex: 100%;
         max-width: 100%;
     }
+
+        .side p {
+            display: flex;
+            padding: 5px;
+            font-size: 1.5rem;
+            width: 80%;
+            font-family: 'Yrsa';
+            text-align: left;
+        }
+
+        .side img {
+            margin-top: 1vh;
+            display: flex;
+            width: 80%;
+            border-radius: 3px;
+            border-style: solid;
+            border-color: #B69257;
+        }
 }
 
 /* -------------------------------- Navigation Bar ------------------------------------------- */
@@ -340,7 +358,7 @@ body {
 @media screen and (min-width: 1001px) {
     div.team-member p {
         font-family: 'Yrsa';
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 
     div.team-member h1 {
@@ -382,13 +400,13 @@ body {
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 900px) {
-    div.team-member p {
+@media screen and (max-width: 1000px) {
+    .team-member p {
         font-size: 1.5rem;
         font-family: 'Yrsa';
     }
 
-    div.team-member h1 {
+    .team-member h1 {
         font-size: 2.5rem;
         font-family: 'Gelasio';
         font-weight: lighter;
@@ -396,16 +414,17 @@ body {
         letter-spacing: 0.5px;
     }
 
-    div.team-member {
+    .team-member {
         margin: 0 auto;
+        margin-bottom: 0.5%;
         padding: 0.5% 0.5%;
-        max-width: 50%;
+        max-width: 70%;
         height: auto;
         display: inline-block;
     }
 
-    div.team-member-together {
-        max-width: 100%;
+    .team-member-together {
+        width: 100%;
     }
 
     .team-member-together p {
@@ -510,16 +529,16 @@ input[type=submit]:hover {
     vertical-align: top;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .contact-form {
         flex: 100%;
         max-width: 100%;
-        width: 80%;
+        width: 90%;
     }
 
     .contact-info {
         width: 90%;
-        display: inline-block;
+        display: flex;
     }
 
     .contact-info img {
@@ -527,11 +546,21 @@ input[type=submit]:hover {
     }
 
     .contact-info p {
-      font-size: 18px;
+      font-size: 1.2rem;
     }
 
     .contact-info h1 {
-      font-size: 23px;
+      font-size: 1.5rem;
+    }
+
+    .contact-form {
+        border: 1.5px;
+        border-style: solid;
+        border-color: #B69257;
+        border-radius: 15px 15px 15px 15px;
+        padding: 3vh 3vh;
+        width: 80%;
+        display: flex;
     }
 
     input[type=text], select, textarea {
@@ -671,16 +700,16 @@ input[type=submit]:hover {
         text-align: center;
         color: rgb(241, 249, 249);
         display: inline-block;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: 'Tenali Ramakrishna';
         letter-spacing: 2px;
     }
 
     .social-tag {
         margin: 0;
-        padding: 1rem 1rem;
+        padding: 1rem;
         color: rgb(241, 249, 249);
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 
@@ -820,6 +849,6 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 1000px) {
     .bottom-footer {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
