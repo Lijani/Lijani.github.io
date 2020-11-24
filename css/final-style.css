@@ -197,7 +197,7 @@ body {
         .side p {
             display: flex;
             padding: 5px;
-            font-size: 1.5rem;
+            font-size: 2vh;
             width: 80%;
             font-family: 'Yrsa';
             text-align: left;
@@ -328,21 +328,11 @@ body {
 
 .gallery_quote {
   padding-left: 2%;
-  font-size: 4.5vh;
+  font-size: 4vh;
   font-family: 'Dancing Script', cursive;
 }
 
 /*-------------------------------------------Team Member and Information ----------------------------------------*/
-
-.team-image-together {
-  vertical-align: top;
-  margin: 0 auto;
-  display: inline-block;
-  max-width: 25%;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: #B69257;
-}
 
 .team-image {
   vertical-align: top;
@@ -358,11 +348,11 @@ body {
 @media screen and (min-width: 1001px) {
     div.team-member p {
         font-family: 'Yrsa';
-        font-size: 1.2rem;
+        font-size: 2.2vh;
     }
 
     div.team-member h1 {
-        font-size: 1.3rem;
+        font-size: 2.5vh;
         font-family: 'Gelasio';
         font-weight: lighter;
         font-variant-caps: small-caps;
@@ -376,38 +366,17 @@ body {
         height: auto;
         display: inline-block;
     }
-
-    div.team-member-together {
-        margin: 0 auto;
-        padding: 0.5% 0.5%;
-        max-width: 75%;
-        height: auto;
-        display: inline-block;
-    }
-
-    .team-member-together p {
-        font-family: 'Yrsa';
-        font-size: 1.1rem;
-    }
-
-    .team-member-together h1 {
-        font-size: 1.5rem;
-        font-family: 'Gelasio';
-        font-weight: lighter;
-        font-variant-caps: small-caps;
-        letter-spacing: 0.5px;
-    }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 1000px) {
     .team-member p {
-        font-size: 1.5rem;
+        font-size: 2.2vh;
         font-family: 'Yrsa';
     }
 
     .team-member h1 {
-        font-size: 2.5rem;
+        font-size: 2.5vh;
         font-family: 'Gelasio';
         font-weight: lighter;
         font-variant-caps: small-caps;
@@ -421,23 +390,6 @@ body {
         max-width: 70%;
         height: auto;
         display: inline-block;
-    }
-
-    .team-member-together {
-        width: 100%;
-    }
-
-    .team-member-together p {
-        font-family: 'Yrsa';
-        font-size: 1.5rem;
-    }
-
-    .team-member-together h1 {
-        font-size: 2rem;
-        font-family: 'Gelasio';
-        font-weight: lighter;
-        font-variant-caps: small-caps;
-        letter-spacing: 0.5px;
     }
 }
 
@@ -545,11 +497,11 @@ input[type=submit]:hover {
     }
 
     .contact-info p {
-      font-size: 1.2rem;
+      font-size: 2.2vh;
     }
 
     .contact-info h1 {
-      font-size: 1.5rem;
+      font-size: 2.5vh;
     }
 
     input[type=text], select, textarea {
@@ -557,7 +509,7 @@ input[type=submit]:hover {
         width: 90%;
         padding: 0.5rem;
         letter-spacing: 3px;
-        font-size: 2rem;
+        font-size: 2vh;
     }
 
     input[type=email] {
@@ -565,13 +517,13 @@ input[type=submit]:hover {
         width: 90%;
         padding: 0.5rem;
         letter-spacing: 3px;
-        font-size: 2rem;
+        font-size: 2vh;
     }
 
     input[type=submit] {
         padding: 8px 12px;
         letter-spacing: 3px;
-        font-size: 2rem;
+        font-size: 2vh;
     }
 }
 
@@ -588,7 +540,7 @@ input[type=submit]:hover {
 .events-par {
   text-align: center;
   font-family: 'Yrsa';
-  font-size: 1.1rem;
+  font-size: 2.5vh;
 }
 
 
@@ -615,13 +567,13 @@ input[type=submit]:hover {
 .news-content p {
   text-align: left;
   font-family: 'Yrsa';
-  font-size: 1.1rem;
+  font-size: 2.2vh;
   vertical-align: top;
 }
 
 .news-content h1 {
   font-family: 'Gelasio';
-  font-size: 2rem;
+  font-size: 2.5vh;
   letter-spacing: 2px;
   margin: 1%;
 }
@@ -636,12 +588,12 @@ input[type=submit]:hover {
 
         div.news-content h1 {
             font-family: 'Gelasio';
-            font-size: 20px;
+            font-size: 2.5vh;
             letter-spacing: 2px;
         }
 
     .news-content p {
-        font-size: 18px;
+        font-size: 2.2vh;
         width: 100%;
     }
 
@@ -791,7 +743,7 @@ input[type=submit]:hover {
 
     .info-footer-contact p{
         font-size: 2rem;
-        line-height: 0.8rem;
+        line-height: 1.2rem;
     }
 
         .info-footer-contact h1 {
@@ -810,7 +762,7 @@ input[type=submit]:hover {
 
     .info-footer-address p {
         font-size: 2rem;
-        line-height: 0.8rem;
+        line-height: 1.2rem;
     }
 
     .info-footer-address h1 {
@@ -839,6 +791,6 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 1000px) {
     .bottom-footer {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
