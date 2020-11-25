@@ -673,6 +673,14 @@ body {
     }
 
     @media screen and (max-width: 1000px) {
+        .social-footer {
+            background-color: #143c5c;
+            margin: 0;
+            padding: 0;
+            margin-top: 2vh;
+            width:105%;
+        }
+
         .social-text {
             margin: 0 auto;
             padding: 0.5rem;
@@ -838,5 +846,6 @@ body {
     @media screen and (max-width: 1000px) {
         .bottom-footer {
             font-size: 2vh;
+            width: 105%;
         }
     }
