@@ -254,6 +254,14 @@ body {
             font-size: 2.2vh;
             font-family: 'Yrsa';
         }
+
+    .aboutus-img {
+        width: 100%;
+        border-radius: 3px;
+        border-style: solid;
+        border-color: #B69257;
+    }
+
     }
 
     /* -------------------------------- Navigation Bar ------------------------------------------- */
