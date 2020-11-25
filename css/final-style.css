@@ -210,8 +210,8 @@ body {
             .side p {
                 display: flex;
                 padding: 5px;
-                font-size: 2.2vh;
-                width: 80%;
+                font-size: 2.1vh;
+                width: 90%;
                 font-family: 'Yrsa';
                 text-align: left;
             }
@@ -229,7 +229,7 @@ body {
             display: inline-block;
             width: 80%;
             padding: 2%;
-            font-size: 2.5vh;
+            font-size: 2.2vh;
             font-family: 'Yrsa';
         }
     }
