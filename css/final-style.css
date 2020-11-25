@@ -688,7 +688,7 @@ body {
         .social-tag {
             margin: 0 auto;
             vertical-align: middle;
-            padding: 0.5vh;
+            padding: 1vh;
             color: rgb(241, 249, 249);
             font-size: 2vh;
         }
@@ -775,13 +775,20 @@ body {
     }
 
     @media screen and (max-width: 1000px) {
+        .info-footer {
+            background-color: #d2c8c8;
+            width: 105%;
+            color: black;
+            text-align: center;
+            font-family: 'Yrsa';
+        }
 
         .info-footer-contact {
             width: 45%;
         }
 
             .info-footer-contact p {
-                font-size: 2vh;
+                font-size: 1.5vh;
                 line-height: 1vh;
             }
 
@@ -805,7 +812,7 @@ body {
             }
 
             .info-footer-address h1 {
-                font-size: 2vh;
+                font-size: 2.5vh;
             }
 
             .info-footer-address hr {
