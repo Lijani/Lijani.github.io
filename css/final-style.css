@@ -150,14 +150,8 @@ body {
 
 
     /* -------------------------------- Services ---------------------------------------*/
-
-    .aboutus-img {
-        width: 90%;
-        border-width: 5px;
-        border-style: solid;
-        border-color: #B69257;
-        margin: 1%;
-        overflow: hidden;
+    .services-content {
+        width:100%;
     }
 
     .aboutus_quote {
@@ -178,7 +172,7 @@ body {
 
     .side {
         max-width: 100%;
-        padding: 1vh 1vh;
+        padding: 0.5vh 0.5vh;
         display: inline-block;
     }
 
@@ -189,15 +183,26 @@ body {
             border-radius: 3px;
             border-style: solid;
             border-color: #B69257;
+            float:left;
         }
 
         .side p {
             display: inline-block;
             padding: 5px;
             font-size: 1.5rem;
-            width: 40%;
+            width: 35%;
             font-family: 'Yrsa';
             text-align: left;
+        }
+
+        .side ul {
+            display: inline-block;
+            list-style-type: square;
+            text-align: left;
+            font-size: 1.5rem;
+            width: 35%;
+            font-family: 'Yrsa';
+            padding: 5px;
         }
 
     /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
