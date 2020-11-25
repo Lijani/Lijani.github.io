@@ -696,7 +696,7 @@ body {
         .social-tag {
             margin: 0 auto;
             vertical-align: middle;
-            padding: 1vh;
+            padding: 0.5vh;
             color: rgb(241, 249, 249);
             font-size: 2vh;
         }
