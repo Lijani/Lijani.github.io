@@ -547,8 +547,8 @@ body {
     @media screen and (max-width: 1000px) {
         .contact-form {
             flex: 100%;
-            max-width: 95%;
-            width: 90%;
+            max-width: 100%;
+            width: 85%;
         }
 
         .contact-info {
