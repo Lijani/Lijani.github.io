@@ -232,7 +232,7 @@ body {
             }
 
             .side img {
-                margin: 1vh auto;
+                margin: 1vh 2vh;
                 display: flex;
                 width: 80%;
                 border-radius: 3px;
