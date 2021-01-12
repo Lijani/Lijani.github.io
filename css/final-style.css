@@ -196,6 +196,7 @@ body {
         }
 
         .side ul {
+            margin: 0 auto;
             display: inline-block;
             list-style-type: square;
             text-align: left;
