@@ -535,16 +535,20 @@ body {
             letter-spacing: 1px;
         }
 
-    .contact-form {
-        border: 1.5px;
-        border-style: solid;
-        border-color: #B69257;
-        border-radius: 15px 15px 15px 15px;
-        padding: 3vh 3vh;
-        width: 50%;
-        display: inline-block;
-        vertical-align: top;
-    }
+.contact-form {
+    border: 1.5px;
+    border-style: solid;
+    border-color: #B69257;
+    border-radius: 15px 15px 15px 15px;
+    padding: 3vh 3vh;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Tenali Ramakrishna';
+    font-variant-caps: petite-caps;
+    letter-spacing: 1.8px;
+    font-size: 1.1rem;
+}
 
     @media screen and (max-width: 1000px) {
         .contact-form {
